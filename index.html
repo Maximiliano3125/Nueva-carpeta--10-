@@ -5,14 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <style>
-    body {
-      display: flex;                
-      flex-direction: column;       
-      align-items: center;         
-      justify-content: center;      
-      height: 100vh;                
-      margin: 0;                    
-    }
     input[type="button"] {
       margin-top: 20px;
       padding: 10px 20px;
@@ -26,12 +18,17 @@
   </style>
 </head>
 <body>
-  <div>
-  
-     <button onclick="cambiarModo()">Cambiar modo</button>
-     <h1>hola</h1>
+  <nav class="navbar">
+  <h2>Mi Proyecto</h2>
+  <ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Opciones</a></li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
+</nav>
 
-  </div>
+
+
   <canvas id="canvas" width="500" height="500"></canvas>
   <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
