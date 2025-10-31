@@ -1,0 +1,12 @@
+#d{
+    background-color: red;
+}
+
+div > #d {
+    border: 1px solid black;
+    width: 50%;
+}
+
+div#d{
+border-radius: 10px;
+}
