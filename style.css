@@ -1,0 +1,9 @@
+
+body.oscuro {
+    background-color: black;
+    color: white;
+}
+
+body.oscuro imput{
+    background-color: darkslategray;
+}
